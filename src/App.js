@@ -20,6 +20,7 @@ export default function App() {
         p.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
         p.category.toLowerCase().includes(searchQuery.toLowerCase());
       const matchPrice = p.price >= priceRange.min && p.price <= priceRange.max; // Bug 1: Incorrect price filter logic
+      // I have added dummy data in products.json file to test bug 1
       const matchCategory = category === 'All' || p.category === category;
       return matchSearch && matchPrice && matchCategory;
     });
