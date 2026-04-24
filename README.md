@@ -7,19 +7,19 @@ Bug 1 **(Line 22)** — App.js | Easy
 Symptom: Price range filters exclude products at the exact boundary price (e.g. "Under ₹500" won't show the ₹499 product; "₹500–₹1,000" won't show the ₹500 or ₹1,000 products).
 
 
-Bug 2 **(Line 35)** — App.js | Hard
+Bug 2 **(Line 36)** — App.js | Hard
 Symptom: Clicking any Category button (Electronics, Footwear, etc.) has no effect — the product grid never changes.
 
 
-Bug 3 **(Line 47)** — App.js | Easy
+Bug 3 **(Line 48)** — App.js | Easy
 Symptom: Clicking the 🗑️ delete button in the cart removes all other items and keeps only the one you tried to delete.
 
 
-Bug 4 **(Line 55)** — App.js | Medium
+Bug 4 **(Line 56)** — App.js | Medium
 Symptom: The cart badge on the header button always shows nothing (or 0) even after adding multiple items.
 
 
-Bug 5 **(Line 56)** — App.js | Hard
+Bug 5 **(Line 57)** — App.js | Hard
 Symptom: The "+ Add to Cart" button never turns green and never says "✓ Added", even after a product is in the cart.
 
 
@@ -31,7 +31,7 @@ Bug 7 **(Line 33)** — Cart.jsx | Medium
 Symptom: The − (decrease) button in the cart is never disabled, allowing quantity to drop to 0 (and below), breaking the total.
 
 
-Bug 8 **(App.jsx Line 28)** — Filters.jsx | Easy
+Bug 8 **(App.jsx Line 29)** — Filters.jsx | Easy
 Symptom: The sort order is inverted — selecting "Price: Low to High" sorts highest-priced items first, and vice versa.
 
 
